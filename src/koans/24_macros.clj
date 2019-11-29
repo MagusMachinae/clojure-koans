@@ -43,5 +43,3 @@
 
   "Really, you don't understand recursion until you understand recursion"
   (= 36 (recursive-infix (10 + (2 * 3) + (4 * 5)))))
-
-(macroexpand '(recursive-infix (10 + (2 * 3) + (4 * 5))))
